@@ -37,7 +37,6 @@ cdir() {
 
 ##------------------------------------------------------##
 ##----------Basic Informations, COMPULSORY--------------##
-
 # The defult directory where the kernel should be placed
 KERNEL_DIR=$PWD
 
