@@ -54,13 +54,12 @@ DEFCONFIG=X00TD_defconfig
 MANUFACTURERINFO="ASUSTek Computer Inc."
 
 # Kernel Variant
-NAMA=kernel.lnx.4.4.r42-rel
+NAMA=perf
 
 KERNEL_FOR=NLV
 
 JENIS=[HMP]
 
-VARIAN=
 # Build Type
 BUILD_TYPE="Q"
 
