@@ -54,7 +54,7 @@ DEFCONFIG=X00TD_defconfig
 MANUFACTURERINFO="ASUSTek Computer Inc."
 
 # Kernel Variant
-NAMA=r42-test
+NAMA=r42-test2
 
 KERNEL_FOR=NLV
 
