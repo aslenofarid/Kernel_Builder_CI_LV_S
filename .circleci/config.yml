@@ -6,7 +6,7 @@ jobs:
    steps:
       - run:
           command: |
-            git clone -b r42 https://github.com/AslenoLineageStuff/msm-4.4 kernel && cd kernel
+            git clone -b potum https://github.com/aslenofarid/kernel/asus/sdm660 kernel && cd kernel
             curl -s https://raw.githubusercontent.com/aslenofarid/Kernel_Builder_CI_LV_S/LV-S/build.sh | bash
           no_output_timeout : 5h
 workflows:
