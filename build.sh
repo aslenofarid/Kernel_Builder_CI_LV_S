@@ -58,7 +58,7 @@ NAMA=kernel.lnx.4.4.r42-rel
 
 KERNEL_FOR=NLV
 
-VARIAN=[HMP]
+JENIS=[HMP]
 
 # Build Type
 BUILD_TYPE="Q"
