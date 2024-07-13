@@ -6,7 +6,7 @@ jobs:
    steps:
       - run:
           command: |
-            git clone --recursive -b kernel.lnx.4.4.r42-rel-ksu https://github.com/AslenoLineageStuff/msm-4.4 kernel && cd sdm660 && rm -rf sdm660/KernelSU/userspace && rm -rf sdm660/KernelSU/website
+            git clone --recursive -b kernel.lnx.4.4.r42-rel-ksu https://github.com/AslenoLineageStuff/msm-4.4 sdm660 && cd sdm660
             curl -s https://raw.githubusercontent.com/aslenofarid/Kernel_Builder_CI_LV_S/LV-S/build.sh | bash
           no_output_timeout : 5h
 workflows:
