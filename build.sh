@@ -54,7 +54,7 @@ DEFCONFIG=X00TD_defconfig
 MANUFACTURERINFO="ASUSTek Computer Inc."
 
 # Kernel Variant
-NAMA=kernel.lnx.4.4.r42-rel
+NAMA=kernel.lnx.4.4.r42-rel-ksu
 
 KERNEL_FOR=NLV
 
@@ -379,7 +379,7 @@ gen_zip() {
 	fi
 	cd AnyKernel3 || exit
 	cp -af anykernel-real.sh anykernel.sh
-	sed -i "s/kernel.string=.*/kernel.string=$NAMA-$VARIAN-$JENIS/g" anykernel.sh
+	sed -i "s/kernel.string=.*/kernel.string=$NAMA-$VARIAN/g" anykernel.sh
 	sed -i "s/kernel.for=.*/kernel.for=$KERNEL_FOR/g" anykernel.sh
 	sed -i "s/kernel.compiler=.*/kernel.compiler=$COMPILER/g" anykernel.sh
 	sed -i "s/kernel.made=.*/kernel.made=aslenofarid/g" anykernel.sh
