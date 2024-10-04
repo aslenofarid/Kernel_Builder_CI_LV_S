@@ -48,13 +48,13 @@ DEVICE="X00TD"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=X00TD_defconfig
+DEFCONFIG=potum_defconfig
 
 # Show manufacturer info
 MANUFACTURERINFO="ASUSTek Computer Inc."
 
 # Kernel Variant
-NAMA=kernel.lnx.4.4.r42-rel
+NAMA=potum
 
 KERNEL_FOR=NLV
 
