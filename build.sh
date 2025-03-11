@@ -54,7 +54,7 @@ DEFCONFIG=potum_defconfig
 MANUFACTURERINFO="ASUSTek Computer Inc."
 
 # Kernel Variant
-NAMA=potum
+NAMA=potum-auto
 
 KERNEL_FOR=NLV
 
