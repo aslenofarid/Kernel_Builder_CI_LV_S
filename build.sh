@@ -54,7 +54,7 @@ DEFCONFIG=X00TD_defconfig
 MANUFACTURERINFO="ASUSTek Computer Inc."
 
 # Kernel Variant
-NAMA=kernel.lnx.4.4.r42-rel-test
+NAMA=kernel.lnx.4.4.r42-rel
 
 KERNEL_FOR=NLV
 
