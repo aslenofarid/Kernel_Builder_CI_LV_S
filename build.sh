@@ -54,7 +54,7 @@ DEFCONFIG=X00TD_defconfig
 MANUFACTURERINFO="ASUSTek Computer Inc."
 
 # Kernel Variant
-NAMA=perf-ksu
+NAMA=perf-ksu-test1
 
 KERNEL_FOR=NLV
 
